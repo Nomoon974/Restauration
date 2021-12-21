@@ -14,8 +14,8 @@
 <body>
     <header id="navbar" class="nav">
         <img src="img/pngegg.png" alt="">
-        <a href="#">Menus</a>
-        <a href="#">Réservations (Nous contacter)</a>
+        <a href="#menu">Menus</a>
+        <a href="#container_du_formulaire">Réservations (Nous contacter)</a>
         <div class="dropdown-1">
             <button>Horaires</button><!--
             <div class="content">
@@ -25,13 +25,13 @@
                 <a href="citroen">Notre équipe</a>-->
             </div>
         </div>
-        <a href="#">Ou sommes nous</a>
-        <a href="#">Notre équipe</a>
-        <a href="#">Réseaux sociaux</a>
+        <a href="#footer">Ou sommes nous</a>
+        <a href="#footer">Notre équipe</a>
+        <a href="#bas">Réseaux sociaux</a>
         <a class="iconburger" onclick="myFunction()" >&#9776;</a>
         </div>
     </header>
-    <main>
+    <main id="main">
         <div id="menu">
             <div class="div_photo_1"><img src="/img/asparagus-2169305_1920.jpg" alt=""><h2>Asparagus </h2><p>1000€</p></div>
             <div class="div_photo_2"><img src="/img/food-712665_1920.jpg" alt=""><h2>Saumon avec du truc dessus</h2><p>1000€</p></div>
@@ -76,36 +76,48 @@
             </form>
         </div>
     </main>
-    <footer>
+    <footer id="footer">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11132.801936125354!2d4.811889293076913!3d45.76717223408691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb7391fcf843%3A0xf4170493513eaa9f!2sCCI%20Formation!5e0!3m2!1sfr!2sfr!4v1640080739895!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <div class="div_equipe">
             <div><img src="img/bernard.png" alt="">Bernard Barman alias DéDé</div>
             <div><img src="img/steve.jpg" alt="">Steve Chef Cuisto</div>
             <div><img src="img/lea.jpg" alt="">Lélé notre serveuse</div>
         </div>
-        <div class="div_bas_de_page">
+        <div id="bas" class="div_bas_de_page">
                 <div>
                 <h3>Rejoignez nos Réseaux sociaux</h3>
                 </div>
                 <div class="icone_reso_soc">
                     <div>
                     <i class="fab fa-youtube fa-3x"></i>
-                    <h3>Youtube</h3>
+                    <h3> Youtube</h3>
                     </div>
                     <div>
                     <i class="fab fa-instagram fa-3x"></i>
-                    <h3>Instagram</h3>
+                    <h3> Instagram</h3>
                     </div>
                     <div>
                     <i class="fab fa-twitter fa-3x"></i>
-                    <h3>Twitter</h3>
+                    <h3> Twitter</h3>
                     </div>
                     <div>
                     <i class="fab fa-facebook fa-3x"></i>
-                    <h3>Facebook</h3>
+                    <h3> Facebook</h3>
                     </div>
                 </div>
         </div>
+        <div class="foot_footer">
+            <div class="div_text_foot">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nostrum eveniet atque alias, velit nemo, quidem fugiat aliquam suscipit, quos consequatur tempore nihil ex est perferendis asperiores soluta repellendus cupiditate.</p>
+            </div>
+            <div class="div_contact_foot">
+                <p>Contact Jacqueline : 0783 12 34 56</p>
+            </div>
+            <div class="div_img_foot">
+                <img id="zim_foot" src="/img/pngegg.png" alt="">
+            </div>
+        </div>
+        <div class="copy"><h2><i class="fas fa-copyright"></i>Copyright</h2></div>
     </footer>
     <script src="js/script.js"></script>
 </body>
