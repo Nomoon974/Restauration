@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/style.css">
     <title>Document</title>
 </head>
@@ -17,28 +20,48 @@
         <a href="#menu">Menus</a>
         <a href="#container_du_formulaire">Réservations (Nous contacter)</a>
         <div class="dropdown-1">
-            <button>Horaires</button><!--
+            <button>Horaires</button>
+            <!--
             <div class="content">
                 <a href="BMW.html"></a>
                 <a href="audi.html">Réservations (Nous contacter)</a>
                 <a href="renault.html">Ou sommes-nous</a>
                 <a href="citroen">Notre équipe</a>-->
-            </div>
+        </div>
         </div>
         <a href="#footer">Ou sommes nous</a>
         <a href="#footer">Notre équipe</a>
         <a href="#bas">Réseaux sociaux</a>
-        <a class="iconburger" onclick="myFunction()" >&#9776;</a>
+        <a class="iconburger" onclick="myFunction()">&#9776;</a>
         </div>
     </header>
     <main id="main">
+        <h2>Menu</h2>
         <div id="menu">
-            <div class="div_photo_1"><img src="/img/asparagus-2169305_1920.jpg" alt=""><h2>Asparagus </h2><p>1000€</p></div>
-            <div class="div_photo_2"><img src="/img/food-712665_1920.jpg" alt=""><h2>Saumon avec du truc dessus</h2><p>1000€</p></div>
-            <div class="div_photo_3"><img src="/img/meat-1155132_1920.jpg" alt=""><h2>Steack 2</h2><p>1000€</p></div>
-            <div class="div_photo_4"><img src="/img/salmon-1485014_1920.jpg" alt=""><h2>Saumon 2</h2><p>1000€</p></div>
-            <div class="div_photo_5"><img src="/img/salmon-518032_1920.jpg" alt=""><h3>Saumon 3</h3><p>1000€</p></div>
-            <div class="div_photo_6"><img src="/img/sushi-2853382_1920.jpg" alt=""><h2>Sushi</h2><p>1000€</p></div>
+            <div class="div_photo_1"><img src="/img/asparagus-2169305_1920.jpg" alt="">
+                <h2>Asparagus </h2>
+                <p>1000€</p>
+            </div>
+            <div class="div_photo_2"><img src="/img/food-712665_1920.jpg" alt="">
+                <h2>Saumon avec du truc dessus</h2>
+                <p>1000€</p>
+            </div>
+            <div class="div_photo_3"><img src="/img/meat-1155132_1920.jpg" alt="">
+                <h2>Steack 2</h2>
+                <p>1000€</p>
+            </div>
+            <div class="div_photo_4"><img src="/img/salmon-1485014_1920.jpg" alt="">
+                <h2>Saumon 2</h2>
+                <p>1000€</p>
+            </div>
+            <div class="div_photo_5"><img src="/img/salmon-518032_1920.jpg" alt="">
+                <h2>Saumon 3</h2>
+                <p>1000€</p>
+            </div>
+            <div class="div_photo_6"><img src="/img/sushi-2853382_1920.jpg" alt="">
+                <h2>Sushi</h2>
+                <p>1000€</p>
+            </div>
         </div>
         <div id="container_du_formulaire">
             <div class="div_horaire">
@@ -53,62 +76,68 @@
                     <li>Dimanche Fermé</li>
                 </ul>
             </div>
-            <form id="form_du_form" action="">
-                <h2>Faite votre réservation</h2>
-                <div class="div_du_form">
-                    <div>
-                        <label for="nom">Votre nom:* </label>
-                        <input type="text" name="nome" id="name">
+                <form id="form_du_form" action="">
+                    <h2>Faite votre réservation</h2>
+                    <div class="div_du_form">
+                        <div>
+                            <label for="nom">Votre nom:* </label>
+                            <input type="text" name="nome" id="name">
+                        </div>
+                        <div>
+                            <label for="prenom">Votre prénom:* </label>
+                            <input type="text" name="nome" id="first_name">
+                        </div>
+                        <div>
+                            <label for="numero">Votre Numéro de téléphone:* </label>
+                            <input type="tel" name="tel" id="phone">
+                        </div>
+                        <div>
+                            <label for="horaire">Heure de réservation:* </label>
+                            <input type="time" name="heure" id="time">
+                        </div>
                     </div>
-                    <div>
-                        <label for="prenom">Votre prénom:* </label>
-                        <input type="text" name="nome" id="first_name">
-                    </div>
-                    <div>
-                        <label for="numero">Votre Numéro de téléphone:* </label>
-                        <input type="tel" name="tel" id="phone">
-                    </div>
-                    <div>
-                        <label for="horaire">Heure de réservation:* </label>
-                        <input type="time" name="heure" id="time">
-                    </div>
-                </div>    
-            </form>
+                </form>
         </div>
     </main>
     <footer id="footer">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11132.801936125354!2d4.811889293076913!3d45.76717223408691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb7391fcf843%3A0xf4170493513eaa9f!2sCCI%20Formation!5e0!3m2!1sfr!2sfr!4v1640080739895!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11132.801936125354!2d4.811889293076913!3d45.76717223408691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb7391fcf843%3A0xf4170493513eaa9f!2sCCI%20Formation!5e0!3m2!1sfr!2sfr!4v1640080739895!5m2!1sfr!2sfr"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         <div class="div_equipe">
-            <div><img src="img/bernard.png" alt="">Bernard Barman alias DéDé</div>
-            <div><img src="img/steve.jpg" alt="">Steve Chef Cuisto</div>
-            <div><img src="img/lea.jpg" alt="">Lélé notre serveuse</div>
+            <div>
+            <div class="team1"><img src="img/bernard.png" alt=""></div><div>Bernard Barman alias DéDé</div>
+            </div>
+            <div>
+            <div class="team1"><img src="img/steve.jpg" alt=""></div><div>Steve Chef Cuisto</div>
+            </div>
+            <div>
+            <div class="team1"><img src="img/lea.jpg" alt=""></div><div>Lélé notre serveuse</div>
+            </div>
         </div>
         <div id="bas" class="div_bas_de_page">
-                <div>
+            <div>
                 <h3>Rejoignez nos Réseaux sociaux</h3>
-                </div>
-                <div class="icone_reso_soc">
-                    <div>
+            </div>
+            <div class="icone_reso_soc">
+                <div>
                     <i class="fab fa-youtube fa-3x"></i>
-                    <h3> Youtube</h3>
-                    </div>
-                    <div>
-                    <i class="fab fa-instagram fa-3x"></i>
-                    <h3> Instagram</h3>
-                    </div>
-                    <div>
-                    <i class="fab fa-twitter fa-3x"></i>
-                    <h3> Twitter</h3>
-                    </div>
-                    <div>
-                    <i class="fab fa-facebook fa-3x"></i>
-                    <h3> Facebook</h3>
-                    </div>
                 </div>
+                <div>
+                    <i class="fab fa-instagram fa-3x"></i>
+                </div>
+                <div>
+                    <i class="fab fa-twitter fa-3x"></i>
+                </div>
+                <div>
+                    <i class="fab fa-facebook fa-3x"></i>
+                </div>
+            </div>
         </div>
         <div class="foot_footer">
             <div class="div_text_foot">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nostrum eveniet atque alias, velit nemo, quidem fugiat aliquam suscipit, quos consequatur tempore nihil ex est perferendis asperiores soluta repellendus cupiditate.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nostrum eveniet atque alias, velit nemo,
+                    quidem fugiat aliquam suscipit, quos consequatur tempore nihil ex est perferendis asperiores soluta
+                    repellendus cupiditate.</p>
             </div>
             <div class="div_contact_foot">
                 <p>Contact Jacqueline : 0783 12 34 56</p>
@@ -117,7 +146,9 @@
                 <img id="zim_foot" src="/img/pngegg.png" alt="">
             </div>
         </div>
-        <div class="copy"><h2><i class="fas fa-copyright"></i>Copyright</h2></div>
+        <div class="copy">
+            <h2><i class="fas fa-copyright"></i>Copyright</h2>
+        </div>
     </footer>
     <script src="js/script.js"></script>
 </body>
