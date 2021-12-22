@@ -192,7 +192,7 @@ footer{
     flex-direction: row;
     justify-content: space-around;
     padding: 2% 0 2% 0;
-    background:url('/img/tim-mossholder-G-IId4_X6mA-unsplash.jpg');
+    background:url('img/tim-mossholder-G-IId4_X6mA-unsplash.jpg');
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
@@ -479,7 +479,5 @@ footer>.copy{
         width: 140px;
         object-fit: cover;
     }
-
-
 
 }
