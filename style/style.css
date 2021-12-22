@@ -358,7 +358,7 @@ footer>.copy{
     #container_du_formulaire{
         grid-template-areas: 
         "q l";
-        grid-template-columns: 1fr 4fr;
+        grid-template-columns: 2fr 4fr;
     }
 
     .div_du_form{
@@ -392,6 +392,11 @@ footer>.copy{
         height: 200px;
         width: 180px;
         object-fit: cover;
+    }
+
+    .team1{
+        display: flex;
+        justify-content: center;
     }
 
     #zim_foot{
@@ -441,6 +446,7 @@ footer>.copy{
         "c"
         ;
         grid-template-columns: 1fr;
+        gap: 1em;
     }
 
 
